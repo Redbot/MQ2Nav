@@ -38,7 +38,7 @@ Common abbreviation: <span class=accent>/nav</span>
     !!! example "`/nav id ${Target.ID}`"
 
 ``spawn <Spawn search> | <option>``
-:   Invoke [Spawn search](../../../reference/general/spawn-search.md) to find and navigate to a spawn. Provide navigation options after a `|` (pipe).
+:   Invoke [Spawn search](../macroquest/reference/general/spawn-search.md) to find and navigate to a spawn. Provide navigation options after a `|` (pipe).
     
     !!! example "`/nav spawn "Spiderling" | distance=5 lineofsight=off`"
 

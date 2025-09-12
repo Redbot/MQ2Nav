@@ -11,10 +11,10 @@ The alias Nav is more commonly used than Navigation.
 ## Associated DataTypes
 <!--tlo-datatypes-start-->
 ## [`Navigation`](datatype-navigation.md)
-{% include-markdown "plugins/community-plugins/mq2nav/datatype-navigation.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('plugins/community-plugins/mq2nav/datatype-navigation.md') }}
+{% include-markdown "projects/mq2nav/datatype-navigation.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('projects/mq2nav/datatype-navigation.md') }}
 :    <h3>Members</h3>
-    {% include-markdown "plugins/community-plugins/mq2nav/datatype-navigation.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
-    {% include-markdown "plugins/community-plugins/mq2nav/datatype-navigation.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
+    {% include-markdown "projects/mq2nav/datatype-navigation.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
+    {% include-markdown "projects/mq2nav/datatype-navigation.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
     <!--tlo-datatypes-end-->
 
 ## Examples

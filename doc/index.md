@@ -1,6 +1,13 @@
 ---
 tags:
   - plugin
+resource_link: "https://www.redguides.com/community/resources/mq2nav.146/"
+support_link: "https://www.redguides.com/community/threads/mq2nav-release-thread.43040/"
+repository: "https://github.com/brainiac/MQ2Nav"
+config: "MQ2Nav.ini, Zones.ini"
+authors: "brainiac, Knightly, dannuic, eqmule, plure, xowis, jdowling, drwhomphd, ChatWithThisName, Sic"
+tagline: "Assist with intelligent navigation using a Navigation mesh of a zone file."
+quick_start: "https://www.redguides.com/community/resources/mq2nav.146/"
 ---
 
 # MQ2Nav
@@ -13,16 +20,16 @@ MQ2Nav is a pathfinding plugin for MacroQuest. It is made up of two components: 
 
 <a href="cmd-navigate/">
 {% 
-  include-markdown "plugins/community-plugins/mq2nav/cmd-navigate.md" 
+  include-markdown "projects/mq2nav/cmd-navigate.md" 
   start="<!--cmd-syntax-start-->" 
   end="<!--cmd-syntax-end-->" 
 %}
 </a>
-:    {% include-markdown "plugins/community-plugins/mq2nav/cmd-navigate.md" 
+:    {% include-markdown "projects/mq2nav/cmd-navigate.md" 
         start="<!--cmd-desc-start-->" 
         end="<!--cmd-desc-end-->" 
         trailing-newlines=false 
-     %} {{ readMore('plugins/community-plugins/mq2nav/cmd-navigate.md') }}
+     %} {{ readMore('projects/mq2nav/cmd-navigate.md') }}
 
 ## Screenshots
 
@@ -101,8 +108,8 @@ DebugRenderPathing=0
 ## TLO Members
 
 The TLO [Nav](tlo-navigation.md) (or Navigation) includes the following members,
-{% include-markdown "plugins/community-plugins/mq2nav/datatype-navigation.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
-{% include-markdown "plugins/community-plugins/mq2nav/datatype-navigation.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
+{% include-markdown "projects/mq2nav/datatype-navigation.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
+{% include-markdown "projects/mq2nav/datatype-navigation.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
 
 ## Exported Functions
 

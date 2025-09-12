@@ -53,8 +53,8 @@ Contains information about current mesh, path, velocity, and settings.
 <!--dt-members-end-->
 
 <!--dt-linkrefs-start-->
-[bool]: ../../../reference/data-types/datatype-bool.md
-[int]: ../../../reference/data-types/datatype-int.md
-[string]: ../../../reference/data-types/datatype-string.md
-[float]: ../../../reference/data-types/datatype-float.md
+[bool]: ../macroquest/reference/data-types/datatype-bool.md
+[int]: ../macroquest/reference/data-types/datatype-int.md
+[string]: ../macroquest/reference/data-types/datatype-string.md
+[float]: ../macroquest/reference/data-types/datatype-float.md
 <!--dt-linkrefs-end-->
