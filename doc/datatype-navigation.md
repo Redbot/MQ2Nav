@@ -10,21 +10,21 @@ Contains information about current mesh, path, velocity, and settings.
 
 ## Members
 <!--dt-members-start-->
-### {{ renderMember(type='bool', name='Active') }}
+/// member | bool Active
+Returns true if navigation is currently active
+///
 
-:   Returns true if navigation is currently active
+/// member | bool Paused
+Returns true if navigation is currently paused
+///
 
-### {{ renderMember(type='bool', name='Paused') }}
+/// member | bool MeshLoaded
+Returns true if a mesh is loaded in the current zone
+///
 
-:   Returns true if navigation is currently paused
-
-### {{ renderMember(type='bool', name='MeshLoaded') }}
-
-:   Returns true if a mesh is loaded in the current zone
-
-### {{ renderMember(type='bool', name='PathExists', params='parameters') }}
-
-:   Returns true if the specified navigation parameters results in a navigatable path. Navigation parameters are the same parameters that would be passed to /nav
+/// member | bool PathExists[parameters]
+Returns true if the specified navigation parameters results in a navigatable path. Navigation parameters are the same parameters that would be passed to /nav
+///
 
 !!! example "nav to target if a path exists"
     ```powershell
@@ -33,17 +33,18 @@ Contains information about current mesh, path, velocity, and settings.
     }
     ```
 
-### {{ renderMember(type='float', name='PathLength', params='parameters') }}
+/// member | float PathLength[parameters]
+Similar to PathExists, but returns the length of the path if one is found. Navigation parameters are the same parameters that would be passed to /nav
+///
 
-:   Similar to PathExists, but returns the length of the path if one is found. Navigation parameters are the same parameters that would be passed to /nav
+/// member | int Velocity
+Returns current velocity of the player, rounded to nearest integer.
+///
 
-### {{ renderMember(type='int', name='Velocity') }}
-
-:   Returns current velocity of the player, rounded to nearest integer.
-
-### {{ renderMember(type='string', name='Setting', params='<key>') }}
-
-:   Will return the string value of the setting  
+/// member | string Setting[<key>]
+    label: Setting[key]
+Will return the string value of the setting  
+///
 
 !!! example
     ```powershell
